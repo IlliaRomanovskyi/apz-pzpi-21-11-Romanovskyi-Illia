@@ -1,0 +1,146 @@
+.zones-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .zones-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .zone-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .zone-item h3 {
+    margin-top: 0;
+  }
+  
+  .zone-item p {
+    margin: 5px 0;
+  }
+  
+  .button-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .add-zone-group {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s, box-shadow 0.2s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+  }
+  
+  button:active {
+    background-color: #004080;
+  }
+  
+  .add-zone-button {
+    background-color: #28a745;
+  }
+  
+  .add-zone-button:hover {
+    background-color: #218838;
+  }
+  
+  .add-report-button {
+    background-color: #17a2b8;
+  }
+  
+  .add-report-button:hover {
+    background-color: #138496;
+  }
+  
+  .view-reports-button {
+    background-color: #ffc107;
+  }
+  
+  .view-reports-button:hover {
+    background-color: #e0a800;
+  }
+  
+  .edit-zone-button {
+    background-color: #6c757d;
+  }
+  
+  .edit-zone-button:hover {
+    background-color: #5a6268;
+  }
+  
+  .add-sensor-button {
+    background-color: #20c997;
+  }
+  
+  .add-sensor-button:hover {
+    background-color: #198754;
+  }
+  
+  .delete-sensor-button {
+    background-color: #dc3545;
+  }
+  
+  .delete-sensor-button:hover {
+    background-color: #c82333;
+  }
+  
+  .sensor-data-button {
+    background-color: #007bff;
+  }
+  
+  .sensor-data-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .delete-zone-button {
+    background-color: #dc3545;
+  }
+  
+  .delete-zone-button:hover {
+    background-color: #c82333;
+  }
+  
+  .my-reports-button {
+    background-color: #17a2b8;
+  }
+  
+  .my-reports-button:hover {
+    background-color: #138496;
+  }
+  
+  .back-button {
+    background-color: #6c757d;
+    margin-top: 20px;
+  }
+  
+  .back-button:hover {
+    background-color: #5a6268;
+  }
+  

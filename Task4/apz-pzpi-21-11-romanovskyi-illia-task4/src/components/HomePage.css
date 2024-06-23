@@ -1,0 +1,77 @@
+.home-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logout-button {
+    display: block;
+    margin-left: auto;
+    background-color: #d9534f;
+    color: white;
+  }
+  
+  .profile-container {
+    margin-bottom: 20px;
+  }
+  
+  .create-production-button {
+    background-color: #5cb85c;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .productions-container {
+    margin-top: 20px;
+  }
+  
+  .productions-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .production-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .production-item h4 {
+    margin-top: 0;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s, box-shadow 0.2s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+  }
+  
+  button:active {
+    background-color: #004080;
+  }
+  
